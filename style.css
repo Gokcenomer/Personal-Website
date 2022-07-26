@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    
+    
+}
+h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #2C3333;
+    justify-content: center;
+    align-items: center;
+   
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    background-color: #E7F6F2;
+    width : 70%;
+    justify-content: center ;
+    
+    
+}
+.container{
+    display: flex;
+    height: 100vh;
+    
+}
+ul{
+    display: flex;
+    gap: 3rem;
+
+}
+.right-side-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 2rem;
+    
+}
+img{
+    width: 48px;
+    height: auto;
+}
+footer{
+    display: flex;
+    height : 100px;
+    background-color: #A5C9CA;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: #395B64;
+}
+#hero{
+    width: 260px;
+
+}
+
